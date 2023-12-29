@@ -1,0 +1,39 @@
+.preNav {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  grid-template-columns: 5fr 2fr; /* divides both the div into 5/7 and 2/7 ratio */
+  color: white;
+}
+
+.preNav > div {
+  padding: 0 4vmax; /* top-bottom 0 right-left 4*/
+  display: flex; /*For cart icon to properly align with other anchor links*/
+  align-items: center;
+}
+
+.preNav > div > span {
+  color: rgba(180, 180, 180, 0.644);
+  font-size: 0.8vmax;
+  font-weight: 100;
+}
+
+.preNav > div svg {
+  fill: rgb(180, 180, 180); /*Giving a colour to cart icon*/
+}
+
+.preNav > div svg:hover {
+  fill: white;
+}
+
+.preNav > div > a {
+  color: rgb(180, 180, 180);
+  font-size: 0.9vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  margin: 1vmax;
+  text-decoration: none;
+}
+
+.preNav > div > a:hover {
+  color: white;
+}
